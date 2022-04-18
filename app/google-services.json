@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "552360677179",
+    "project_id": "androidstuidolab08",
+    "storage_bucket": "androidstuidolab08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552360677179:android:27858c48d1258243d9711e",
+        "android_client_info": {
+          "package_name": "com.example.androidstudio_tuan10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552360677179-cti22n0bg7afhp6s5ejuf9nn796o4qfq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7FzGj25Eddil1qkp4nXACx1QOqVT2Y2E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552360677179-cti22n0bg7afhp6s5ejuf9nn796o4qfq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

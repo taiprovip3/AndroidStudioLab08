@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 public class lab08_screen1_MainActivity extends AppCompatActivity {
     Button btnSignin;
     Button btnRegister;
@@ -14,6 +17,12 @@ public class lab08_screen1_MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lab08_screen1__main);
+
+        // Write a message to the database
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference myRef = database.getReference("message");
+
+        myRef.setValue("Hello, World!");
 
         btnSignin = (Button) findViewById(R.id.screen1_btnSignin);
         btnRegister = (Button) findViewById(R.id.screen1_btnRegister);
