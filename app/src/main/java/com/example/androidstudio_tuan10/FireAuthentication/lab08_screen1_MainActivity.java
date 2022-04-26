@@ -1,4 +1,4 @@
-package com.example.androidstudio_tuan10;
+package com.example.androidstudio_tuan10.FireAuthentication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,10 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
+import com.example.androidstudio_tuan10.R;
 
 public class lab08_screen1_MainActivity extends AppCompatActivity {
     Button btnSignin;

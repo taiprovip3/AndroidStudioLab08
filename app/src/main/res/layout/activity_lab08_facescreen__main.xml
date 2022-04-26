@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".lab08_facescreen_MainActivity"
+    tools:context=".FireAuthentication.lab08_facescreen_MainActivity"
     android:background="@drawable/gradiant_background">
 
     <TextView

@@ -9,28 +9,35 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidStudio_tuan10">
-        <activity android:name=".lab08_screen1_MainActivity">
+        <activity android:name=".FireStore.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".lab08_facescreen_MainActivity">
+        <activity android:name=".FireAuthentication.lab08_screen1_MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".lab08_register_MainActivity">
+        <activity android:name=".FireAuthentication.lab08_facescreen_MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".lab08_signin_MainActivity" />
+        <activity android:name=".FireAuthentication.lab08_register_MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FireAuthentication.lab08_signin_MainActivity" />
     </application>
 
 </manifest>
